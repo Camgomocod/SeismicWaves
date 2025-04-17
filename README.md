@@ -1,9 +1,10 @@
 # SismicWaves
-GICO. Predictions of S and P seismic waves.
+GICO. Predictions P seismic waves.
 
 
 ## Structure 
 
+```bash
 cnn_wavelets_project/
 ├── data/                       ← Archivos .mseed, .csv, .npz, etc.
 │   ├── raw/                    ← Datos originales
@@ -35,3 +36,5 @@ cnn_wavelets_project/
 ├── requirements.txt           ← Librerías necesarias
 ├── config.yaml / config.py    ← Parámetros de entrenamiento
 └── README.md                  ← Descripción del proyecto
+
+```
