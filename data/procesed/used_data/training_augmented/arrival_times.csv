@@ -1,4 +1,4 @@
-original_file,augmented_file,arrival_time,augmentation_type
+original_file,file,arrival_time,augmentation_type
 01010056.mseed,01010056.mseed,30.59999990463257,original
 01010056.mseed,01010056_aug1.mseed,30.59999990463257,amplitude_modulation
 01010056.mseed,01010056_aug2.mseed,20.999999904632567,time_shift_noise
