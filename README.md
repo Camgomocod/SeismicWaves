@@ -20,6 +20,8 @@ Estadísticas de errores:
 
 *notebook*: is notebooks/07_training_final.ipynb
 
+**results over dataset:** augmented_ranges_huber_data.csv
+
 ## Results testing set vt_p_test
 
 csv_seconds: [[predictions_eval.csv]]
