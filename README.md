@@ -2,6 +2,19 @@
 
 A deep learning project for P-wave arrival time detection in seismic signals using CNN and Wavelet transforms.
 
+![alt text](image.png)
+
+Métricas de rendimiento en conjunto de prueba:
+MAE: 0.6786 segundos
+RMSE: 2.8132 segundos
+
+Estadísticas de errores:
+Error medio: 0.1754 segundos
+Desviación estándar: 2.8077 segundos
+Mediana del error: -0.0529 segundos
+Error dentro de ±0.5s: 85.3%
+Error dentro de ±1.0s: 95.8%
+
 ## Project Overview
 
 This project implements a hybrid deep learning approach combining Convolutional Neural Networks (CNNs) and Wavelet transforms to automatically detect P-wave arrival times in seismic signals. The model processes raw seismic waveform data to make precise predictions of when the P-wave arrives at the seismic station.
