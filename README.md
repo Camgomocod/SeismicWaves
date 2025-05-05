@@ -91,7 +91,7 @@ The project uses a hybrid approach:
 
 ## Usage
 
-is in [[/mnt/c/Users/Usuario/Documents/Studies/GicoProject/SeismicWaves/notebooks/08_generalization.ipynb]] is just select the directory and generete the wavelet features what are in [[/mnt/c/Users/Usuario/Documents/Studies/GicoProject/SeismicWaves/notebooks/05_wavelets+cnn.ipynb]] for the dirctory before the process of the normalize and filtered the data
+is in ![uning the model](/notebooks/08_generalization.ipynb]) is just select the directory and generete the wavelet features what are in ![wavelets features](notebooks/05_wavelets+cnn.ipynb) for the dirctory before the process of the normalize and filtered the data ![creal the data](notebooks/02_clean_data.ipynb)
 
 
 ## Requirements
