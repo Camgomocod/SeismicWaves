@@ -2,6 +2,7 @@
 
 A deep learning project for P-wave arrival time detection in seismic signals using CNN and Wavelet transforms.
 
+## Results Model: 
 ![alt text](image.png)
 
 Métricas de rendimiento en conjunto de prueba:
@@ -14,6 +15,10 @@ Estadísticas de errores:
 - Mediana del error: -0.0529 segundos
 - Error dentro de ±0.5s: 85.3%
 - Error dentro de ±1.0s: 95.8%
+
+>[!Note] Model
+>file: src/models/augmented_ranges_huber_data.keras
+>the notebook of the training is /mnt/c/Users/Usuario/Documents/Studies/GicoProject/SeismicWaves/notebooks/07_training_final.ipynb
 
 ## Project Overview
 
