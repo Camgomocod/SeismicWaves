@@ -18,7 +18,12 @@ Estadísticas de errores:
 
 *file:* src/models/augmented_ranges_huber_data.keras
 
-*notebook*: is /mnt/c/Users/Usuario/Documents/Studies/GicoProject/SeismicWaves/notebooks/07_training_final.ipynb
+*notebook*: is notebooks/07_training_final.ipynb
+
+## Results testing set vt_p_test
+
+csv_seconds: [[predictions_eval.csv]]
+csv_timestamps: [[predictions_timestamps.csv]]
 
 ## Project Overview
 
@@ -50,19 +55,8 @@ cnn_wavelets_project/
 │   │   ├── mseed_loader.py
 │   │   └── utils.py
 │   │
-│   ├── dataset/               ← PyTorch Dataset o TF Data pipeline
-│   │   └── seismo_dataset.py
-│   │
 │   ├── models/                ← Arquitecturas de redes
 │   │   └── cnn_wavelet_model.py
-│   │
-│   └── training/              ← Ciclo de entrenamiento y evaluación
-│       ├── train.py
-│       └── evaluate.py
-│
-├── experiments/               ← Resultados, métricas, modelos guardados
-│   ├── logs/
-│   └── checkpoints/
 │
 ├── requirements.txt           ← Librerías necesarias
 ├── config.yaml / config.py    ← Parámetros de entrenamiento
@@ -97,25 +91,8 @@ The project uses a hybrid approach:
 
 ## Usage
 
-1. **Data Preparation**:
-```bash
-python src/preprocessing/mseed_loader.py
-```
+is in [[/mnt/c/Users/Usuario/Documents/Studies/GicoProject/SeismicWaves/notebooks/08_generalization.ipynb]] is just select the directory and generete the wavelet features what are in [[/mnt/c/Users/Usuario/Documents/Studies/GicoProject/SeismicWaves/notebooks/05_wavelets+cnn.ipynb]] for the dirctory before the process of the normalize and filtered the data
 
-2. **Feature Extraction**:
-```bash
-python src/preprocessing/wavelet_transform.py
-```
-
-3. **Training**:
-```bash
-python src/training/train.py
-```
-
-4. **Evaluation**:
-```bash
-python src/training/evaluate.py
-```
 
 ## Requirements
 
