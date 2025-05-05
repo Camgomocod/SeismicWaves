@@ -20,6 +20,9 @@ Estadísticas de errores:
 
 *notebook*: is notebooks/07_training_final.ipynb
 
+*dataset used: data/data_model, where is (train, val, and testing dataset), are diveded by /augmented what is the original data augmented and the directory /augmented_ranges where is the data augmented but using ranges, one better aproach than the augmented original data. 
+[data_set_model](https://drive.google.com/drive/folders/1dzXh-x6RpQ3i-LQx9NOz3-NoqaTZ3uqG?usp=sharing)
+
 **results over dataset:** augmented_ranges_huber_data.csv
 
 ## Results testing set vt_p_test
