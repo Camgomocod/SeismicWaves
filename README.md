@@ -91,7 +91,7 @@ The project uses a hybrid approach:
 
 ## Usage
 
-is in ![uning the model](/notebooks/08_generalization.ipynb]) is just select the directory and generete the wavelet features what are in ![wavelets features](notebooks/05_wavelets+cnn.ipynb) for the dirctory before the process of the normalize and filtered the data ![creal the data](notebooks/02_clean_data.ipynb)
+is in uning the model:(/notebooks/08_generalization.ipynb]) is just select the directory and generete the wavelet features what are in wavelets features: (notebooks/05_wavelets+cnn.ipynb) for the dirctory before the process of the normalize and filtered the data clean the data: (notebooks/02_clean_data.ipynb)
 
 
 ## Requirements
@@ -128,10 +128,6 @@ The model achieves accurate P-wave arrival time predictions with the following m
 - Enhance data augmentation techniques
 - Explore transfer learning approaches
 
-## Contact
-
-For questions or collaboration, please contact [Your Contact Information]
-
 ## License
 
-This project is licensed under [Your License]
+This project is licensed under [LICENSE]
