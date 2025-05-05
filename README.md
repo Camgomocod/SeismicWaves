@@ -5,15 +5,15 @@ A deep learning project for P-wave arrival time detection in seismic signals usi
 ![alt text](image.png)
 
 Métricas de rendimiento en conjunto de prueba:
-MAE: 0.6786 segundos
-RMSE: 2.8132 segundos
+- MAE: 0.6786 segundos
+- RMSE: 2.8132 segundos
 
 Estadísticas de errores:
-Error medio: 0.1754 segundos
-Desviación estándar: 2.8077 segundos
-Mediana del error: -0.0529 segundos
-Error dentro de ±0.5s: 85.3%
-Error dentro de ±1.0s: 95.8%
+- Error medio: 0.1754 segundos
+- Desviación estándar: 2.8077 segundos
+- Mediana del error: -0.0529 segundos
+- Error dentro de ±0.5s: 85.3%
+- Error dentro de ±1.0s: 95.8%
 
 ## Project Overview
 
