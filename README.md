@@ -16,9 +16,8 @@ Estadísticas de errores:
 - Error dentro de ±0.5s: 85.3%
 - Error dentro de ±1.0s: 95.8%
 
->[!Note] Model
->file: src/models/augmented_ranges_huber_data.keras
->the notebook of the training is /mnt/c/Users/Usuario/Documents/Studies/GicoProject/SeismicWaves/notebooks/07_training_final.ipynb
+>*file:* src/models/augmented_ranges_huber_data.keras
+>*notebook*: is /mnt/c/Users/Usuario/Documents/Studies/GicoProject/SeismicWaves/notebooks/07_training_final.ipynb
 
 ## Project Overview
 
